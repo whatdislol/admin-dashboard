@@ -121,6 +121,7 @@ img{
 .news-and-media{
     flex: 1;
     display: grid;
+    grid-template-rows: max-content;
     gap: var(--container-padding);
     padding: 0 var(--container-padding);
 }
@@ -149,7 +150,4 @@ img{
     display: flex;
     align-items: center;
     gap: var(--container-padding);
-}
-.trending-account{
-    
 }
