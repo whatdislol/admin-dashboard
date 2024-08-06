@@ -90,15 +90,16 @@ img{
 
 .content{
     display: flex;
-}
-.projects{
     background-color: lightgray;
     padding: var(--container-padding);
 }
+.projects{
+    flex: 3;
+}
 .project-container{
     display: grid;
-    padding: var(--container-padding) 0;
-    gap: 1rem;
+    margin: var(--container-padding) 0;
+    gap: 1.5rem;
     grid-auto-rows: 1fr;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 }
@@ -112,4 +113,22 @@ img{
     display: flex;
     align-items: end;
     justify-content: end;
+}
+.news-and-media{
+    flex: 1;
+    padding: 0 var(--container-padding);
+}
+.announcement-container{
+    display: grid;
+    grid-auto-rows: min-content;
+    margin: var(--container-padding) 0;
+    padding: 0.5rem 1.5rem;
+    background-color: white;
+}
+.announcement-container > div{
+    padding: 1rem 0.5rem;
+    border-bottom: 2px solid darkgray;
+}
+.announcement-container > div:last-child{
+    border-bottom: none;
 }
