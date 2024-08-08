@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 *, *::before, *::after{
     box-sizing: border-box;
 }
@@ -18,6 +19,7 @@ input, button, textarea, select{
 
 :root{
     --container-padding: 1rem;
+    font-family: "Nunito", sans-serif;
 }
 img{
     width: 1rem;;
@@ -39,12 +41,17 @@ img{
     background-color: blue;
     color: white;
     padding: var(--container-padding);
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 .dashboard-title,
 .dashboard-main > div,
 .dashboard-secondary > div{
     display: flex;
     align-items: center;
+}
+.dashboard-title{
+    font-size: 2rem;
 }
 .dashboard img{
     margin: 0.5rem;
@@ -88,6 +95,7 @@ img{
     align-items: center;
     width: 5rem;
     height: 2rem;
+    font-weight: 700;
 }
 
 .content{
@@ -137,6 +145,7 @@ img{
 }
 .announcement-container{
     padding: 0.5rem 1.5rem;
+    font-size: 0.8rem;
 }
 .announcement-container > div{
     padding: 1rem 0.5rem;
