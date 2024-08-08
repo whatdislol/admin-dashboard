@@ -96,6 +96,13 @@ img{
     width: 5rem;
     height: 2rem;
     font-weight: 700;
+    border: none;
+}
+.media-bar > button:hover{
+    background-color: rgb(103, 103, 255);
+}
+.media-bar > button:active{
+    transform: scale(.95);
 }
 
 .content{
